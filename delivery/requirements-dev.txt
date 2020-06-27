@@ -7,3 +7,4 @@ ipython
 isort
 pytest
 pytest-flask
+pytest-cov
