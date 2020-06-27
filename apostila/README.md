@@ -85,21 +85,21 @@ Para começar vamos **alinhar** as **expectativas!**
 
 [Parte 1: Estruturando a base do projeto Flask](#parte-1-estruturando-a-base-do-projeto)
 
-[Parte 2: A linha de comando e o `Flask` CLI]()
+Parte 2: A linha de comando e o `Flask` CLI
 
-[Parte 3: Extensões e Banco de dados]()
+Parte 3: Extensões e Banco de dados
 
-[Parte 4: View e processamento de Formulário usando Blueprint]()
+Parte 4: View e processamento de Formulário usando Blueprint
 
-[Parte 5: A interface administrativa com Flask Admin]()
+Parte 5: A interface administrativa com Flask Admin
 
-[Parte 6: REST API]()
+Parte 6: REST API
 
-[Parte 7: Protegendo o app com login/senha]()
+Parte 7: Protegendo o app com login/senha
 
-[Parte 8: Testando a API]()
+Parte 8: Testando a API
 
-[Parte 9: Deploy]()
+Parte 9: Deploy
 
 ## Parte 0: HTTP, Web e WSGI
 
