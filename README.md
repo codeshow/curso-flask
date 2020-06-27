@@ -2,7 +2,7 @@
 
 Curso Flask - https://skip.gg/curso-flask-codeshow
 
-Leia a [apostila](/Apostila).
+Leia a [Apostila](/apostila).
 
 ## Aula 1
 
