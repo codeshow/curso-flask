@@ -22,3 +22,19 @@ Curso Flask - https://skip.gg/curso-flask-codeshow
 - Visão geral do ambiente web
 
 ![](imgs/aula_2_web.png)
+
+## Aula 3
+
+- Métodos HTTP
+- Códigos de Status HTTP
+- Verbos HTTP
+- Front-End(HTML/CSS/JS)
+- Back-End(WSGI/Banco de dados) 
+- Framework Flask
+
+## Aula 4
+
+- Arquitetura  de factories
+- Contexto de configuração 
+- Contexto de aplicação
+- Contexto de request 
