@@ -1,4 +1,5 @@
 import pytest
+
 from delivery.app import create_app
 
 

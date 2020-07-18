@@ -1,11 +1,10 @@
 #! /usr/bin/python
 
-import re
-import sys
 import getopt
 import os
-from xml.dom import minidom
-from xml.dom import Node
+import re
+import sys
+from xml.dom import Node, minidom
 
 debugEnabled = os.getenv("DEBUG", "0")
 
