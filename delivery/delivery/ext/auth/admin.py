@@ -39,11 +39,11 @@ class UserAdmin(ModelView):
 
     @action("toggle_admin", "Toggle admin status", "Are you sure?")
     def toggle_admin_status(self, ids):
-
-        for user in (users := User.query.filter(User.id.in_(ids)).all()):
+        users = User.query.filter(User.id.in_(ids))
+        for user in users.all():
             user.admin = not user.admin
         db.session.commit()
-        flash(f"{len(users)} usuários alterados com sucesso!", "success")
+        flash(f"{users.count()} usuários alterados com sucesso!", "success")
 
     @action("send_email", "Send email to all users", "Are you sure?")
     def send_email(self, ids):
