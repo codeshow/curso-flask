@@ -4,6 +4,8 @@ Curso Flask - https://skip.gg/curso-flask-codeshow
 
 Leia a [Apostila](/apostila).
 
+O aplicativo desenvolvido no curso está em [delivery](/delivery/)
+
 ## Aula 1
 
 - Python
@@ -39,3 +41,29 @@ Leia a [Apostila](/apostila).
 - Contexto de configuração 
 - Contexto de aplicação
 - Contexto de request 
+
+## Aula 5
+
+- ext e Blueprints
+- Testes com Pytest
+
+## Aula 6
+
+- Ci com Github actions
+- Jinja templates
+- Flask Debug toolbar
+
+## Aula 7
+
+- Quizz 1
+- Bancos de dados SQL
+- SQLALchemy
+
+## Aula 8
+
+- Database Migrations
+- Flask Admin
+
+
+
+
