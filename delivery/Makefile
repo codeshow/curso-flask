@@ -21,3 +21,7 @@ init_db:
 
 test:
 	FLASK_ENV=test pytest tests/ -v --cov=delivery
+
+format:
+	isort **/*.py
+	black -l 79 **/*.py
