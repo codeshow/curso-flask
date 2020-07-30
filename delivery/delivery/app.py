@@ -4,6 +4,7 @@ from delivery.ext import admin, auth, cli, config, db, hooks, site, toolbar
 
 
 def create_app():
+    """Factory to create a Flask app based on factory pattern"""
     app = Flask(__name__)
     config.init_app(app)
     db.init_app(app)
