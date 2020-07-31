@@ -64,6 +64,19 @@ O aplicativo desenvolvido no curso está em [delivery](/delivery/)
 - Database Migrations
 - Flask Admin
 
+## Aula 9
 
+- Configurações
+	- Flask
+	- Dynaconf
+- Session e Cookies
+- Autenticação
 
+## Aula 10
 
+- Formulários HTML
+- API Rest
+
+## Aula 11
+
+- Deploy
