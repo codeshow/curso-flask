@@ -1,0 +1,35 @@
+[default]
+DEBUG = false
+FLASK_ADMIN_SWATCH = "cerulean"
+ADMIN_NAME = "Twitch Foods"
+EXTENSIONS = [
+    "delivery.ext.db:init_app",
+    "delivery.ext.auth:init_app",
+    "delivery.ext.admin:init_app",
+    "delivery.ext.cli:init_app",
+    "delivery.ext.site:init_app",
+    "delivery.ext.hooks:init_app",
+]
+
+[development]
+DEBUG = true
+SQLALCHEMY_DATABASE_URI = "sqlite:///delivery.db"
+SQLALCHEMY_TRACK_MODIFICATIONS = false
+DEBUG_TB_TEMPLATE_EDITOR_ENABLED = true
+DEBUG_TB_PROFILER_ENABLED = true
+DEBUG_TB_INTERCEPT_REDIRECTS = false
+ADMIN_NAME = "Twitch Foods (dev mode)"
+EXTENSIONS = [
+    "delivery.ext.db:init_app",
+    "delivery.ext.auth:init_app",
+    "delivery.ext.admin:init_app",
+    "delivery.ext.cli:init_app",
+    "delivery.ext.toolbar:init_app",
+    "delivery.ext.site:init_app",
+    "delivery.ext.hooks:init_app",
+]
+
+
+[production]
+SQLALCHEMY_TRACK_MODIFICATIONS = false
+SQLALCHEMY_DATABASE_URI = "mysql://...."

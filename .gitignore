@@ -130,3 +130,5 @@ dmypy.json
 
 # db
 delivery/delivery/delivery.db
+
+delivery/.secrets.toml
