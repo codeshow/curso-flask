@@ -1,2 +1,0 @@
-FOO = "ZAZ"
-BAR = "FOO"
